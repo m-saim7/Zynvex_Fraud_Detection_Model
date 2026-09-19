@@ -1,0 +1,22 @@
+# Dataset (too large for GitHub — download separately, see README)
+data/creditcard.csv
+
+# Trained model artifacts (regenerate by running model/train.py)
+# Comment these out if you WANT to commit the trained model for easier deployment
+# model/fraud_model.keras
+# model/scaler.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
